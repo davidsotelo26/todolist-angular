@@ -1,0 +1,53 @@
+.todo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    border: 1px solid #29292f;
+    padding: 1rem;
+    color: #dadada;
+    line-height: 24px;
+    background-color: #0c1821;
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        button {
+            background: #0c1821;
+            cursor: pointer;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition-duration: .3s;
+
+            img {
+                width: 18px;
+                height: 18px;
+            }
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+
+    }
+
+    .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            font-size: 14px;
+        }
+    }
+}
